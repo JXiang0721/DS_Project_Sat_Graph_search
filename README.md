@@ -1,4 +1,4 @@
-# Satellite Graph Search System (衛星圖形搜索系統)
+# 衛星圖形搜索系統 (Satellite Graph Search System)
 
 這是一個基於 **C 語言** 開發的資料結構專題專案，旨在模擬並分析衛星網路的動態拓撲。系統透過讀取衛星軌道數據，建立鄰接鏈表（Adjacency List），並提供包含深度優先搜索（DFS）與最短路徑搜尋等多項分析功能。
 
