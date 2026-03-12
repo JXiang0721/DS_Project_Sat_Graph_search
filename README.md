@@ -49,8 +49,9 @@ typedef struct graph {
 
 1. **Mode 1：全節點相對距離輸出** - 計算並列出網路中所有節點對之間的相對距離。
 2. **Mode 2：鄰接鏈表可視化** - 以圖形化呈現鄰接鏈表的結構，展示各衛星節點的連接狀況。
-3. **Mode 4：深度優先搜索 (DFS)** - 執行走訪路徑，展示網路的連通性。
-4. **Mode 5：最短路徑搜尋** - 計算起始至目標節點間的最短路徑與總距離。
+3. **Mode 3：單一節點與其他節點距離** - 選取一節點，系統會顯示其與其相聯節點的距離。
+4. **Mode 4：深度優先搜索 (DFS)** - 執行走訪路徑，展示網路的連通性。
+5. **Mode 5：最短路徑搜尋** - 計算起始至目標節點間的最短路徑與總距離。
 
 ---
 
@@ -81,10 +82,12 @@ typedef struct graph {
 
 ### 主選單與初始化
 ![Mode Selection](images/mode.png)
-
+### 節點相對距離 (Mode 1)
+![relative distance](images/relative_distance.png)
 ### 鄰接鏈表結構 (Mode 2)
+![DFS](images/DFS.png)
+### 鄰接鏈表結構 (Mode 4)
 ![Adjacency List](images/adj_list.png)
-
 ### 最短路徑搜尋結果 (Mode 5)
 ![Shortest Path Result](images/result.png)
 
